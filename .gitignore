@@ -1,0 +1,27 @@
+# Archivos de Cypress que NO se suben
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+
+# Node modules
+node_modules/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Variables de entorno
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Otros
+coverage/
+dist/
+build/

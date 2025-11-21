@@ -1,0 +1,20 @@
+[
+    {
+      "nombre": "Juan Pérez",
+      "email": "andre20046@gmail.com",
+      "password": "Andre100",
+      "rol": "viajero"
+    },
+    {
+      "nombre": "Ana López",
+      "email": "andre20045@gmail.com",
+      "password": "Andre100",
+      "rol": "viajero"
+    },
+    {
+      "nombre": "Carlos Ruiz",
+      "email": "andre2002@gmail.com",
+      "password": "Andre100",
+      "rol": "viajero"
+    }
+  ]
