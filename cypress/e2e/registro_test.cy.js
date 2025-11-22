@@ -72,7 +72,7 @@ describe('Registro', () => {
     cy.contains('Celular requerido y debe tener 9 dígitos numéricos').should('be.visible');
   });
   // CAMPO NUMERO CELULAR NO ACEPTA SIMBOLOS
-  it('Proveedor - Debe mostrar error cuando el numero celular tiene menos de 9 digitos', () => {
+  it('Proveedor - campo celular no acepta simbolos', () => {
     cy.visit('http://localhost:4200/auth/registro');
     const a = Math.floor(Math.random()*999);
     
@@ -87,7 +87,7 @@ describe('Registro', () => {
     
     cy.contains('Celular requerido y debe tener 9 dígitos numéricos').should('be.visible');
   });
-  // campo correo vacío
+  // campo RUC vacío
   it('Proveedor - Debe validar que el RUC no esté vacío', () => {
     cy.visit('http://localhost:4200/auth/registro');
     const a = Math.floor(Math.random()*999);
